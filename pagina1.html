@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Me Perdonas?</title>
+  <style>
+    .body {
+      background-color: pink;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 50%;
+    }
+    button;{
+      border; none;
+      animation; pulse 1s infinite;
+      background; orange;
+      width;150px;
+    }
+
+
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">¿Me Perdonas?</h1>
+  <img src="https://i.pinimg.com/236x/ac/02/ca/ac02cab0bd46b67854c9e2108b4cba8a.jpg" alt="100" class="body__img" />
+  <br>
+  <button id="yes">Si,Pero que se la ultima vez!</button>
+  <button id="no">Nel PerrO</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const aaa = () => {
+      alert('Sabia que me ibas a perdonar DIGOOOO JAJAJAJJA');
+      alert('hay me mandas msj, no me ignores ');
+      location.href = 'https://web.whatsapp.com/';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', aaa);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
+</html>
